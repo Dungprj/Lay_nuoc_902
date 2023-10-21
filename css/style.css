@@ -1,0 +1,155 @@
+
+.container-fluid
+{
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 750px;
+    border: 1px solid red;
+    
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.ct2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.contain-tamgiac
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mg-top
+{
+    margin-top: 5%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #3498db; /* Màu tam giác */
+    transform: rotate(180deg);
+    position: absolute;
+    
+    
+}
+
+/* rote 72 */
+
+/*begin code hinh tron */
+.circle {
+    width: 500px;
+    height: 500px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 160px;
+    transform: rotate(0deg);
+    transition: transform 2s
+}
+
+.hole {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.hole_diem_danh
+{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(217, 162, 24);
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    transform: rotate(0deg);
+    transition: transform 2s;
+    
+}
+
+.hole_diem_danh:hover
+{
+    opacity: 1;
+    background-color: rgb(255, 183, 0);
+    cursor: pointer;
+}
+
+/* end code hinh tron */
+
+
+/* circle con */
+
+.cc
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(64, 226, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+    
+}
+.red
+{
+    background-color:red;
+}
+
+.circle-con_1 {
+    position: absolute;
+    top: 135px;
+    left: -16px;
+    
+}
+.circle-con_2
+{
+    position: absolute;
+    top: -26px;
+    left: 198px;
+}
+.circle-con_3
+{
+    position: absolute;
+    top: 130px;
+    right: -18px;
+}
+.circle-con_4
+{
+    position: absolute;
+    bottom: 17px;
+    left: 75px;
+}
+.circle-con_5
+{
+    position: absolute;
+    bottom: 23px;
+    right: 65px;
+}
+.chon_nguoi
+{
+    position: absolute;
+    transform: rotate(0deg);
+}
+
